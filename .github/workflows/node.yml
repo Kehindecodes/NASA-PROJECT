@@ -8,6 +8,7 @@ on:
       - main
 jobs:
   build:
+    timeout-minutes: 30
     env:
       CI: true
       MONGO_URL: monogodb://localhost/nasa

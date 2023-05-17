@@ -61,14 +61,14 @@ MONGO_DB_URI=<your-mongodb-uri>
 
 4. Start the backend API using the following command:
 ```
-npm run start:server
+npm run server
 ```
 
 5. Start the frontend UI using the following command:
 ```
-npm run start:ui
+npm run client
 ```
 
-6. The application can now be accessed on http://localhost:3000.
+6. The application can now be accessed on http://localhost:8080.
 
 
